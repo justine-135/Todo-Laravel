@@ -1,0 +1,22 @@
+<> = insert here
+
+// Run server
+php artisan serve
+
+// Create model
+php artisan make:model <Model name>
+
+// Create migration
+php artisan make:migration <migration name>
+
+// Migrate all files in migrations folder
+php artisan migrate
+
+// Create dummy data
+php artisan db:seed
+
+// Refresh migrations
+php artisan migrate:refresh
+
+// Make controller
+php artisan make:controller <controller name>
